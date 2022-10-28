@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "roboto"
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.header
+{
+    height: 100px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header > img
+{
+    height: 100%;
+}
+.header > svg
+{
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 2vmax;
+}
+.header > div
+{
+    width: 100%;
+    margin-left: 1vmax;
+    font-size:2ch;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+ a
+{
+    color: aliceblue;
+    text-decoration:solid;
+    margin: 2vmax;
+    
+}
+svg:hover
+{
+    color:red;
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
